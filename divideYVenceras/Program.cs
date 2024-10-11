@@ -80,7 +80,7 @@ Console.WriteLine();
 Console.WriteLine("4.Salir del Menu.");
 
 bool bandera = true;
-int option = 0;
+byte option = 0;
 
 while (bandera)
 {
