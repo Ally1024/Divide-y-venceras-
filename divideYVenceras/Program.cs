@@ -82,6 +82,9 @@ Console.WriteLine("4.Salir del Menu.");
 bool bandera = true;
 byte option = 0;
 
+option = Convert.ToByte(Console.ReadLine());
+
+
 while (bandera)
 {
     switch (option)
@@ -94,8 +97,6 @@ while (bandera)
             Console.WriteLine("Ingrese un numero: ");
 
             int numero = int.Parse(Console.ReadLine());
-
-
 
             Console.WriteLine($"El factorial del numero {numero} es {Factorial(numero)}");
             break;
