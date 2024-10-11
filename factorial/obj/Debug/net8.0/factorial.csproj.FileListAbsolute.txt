@@ -1,0 +1,14 @@
+D:\ProyectosC#\archivoBinario\expo\factorial\factorial\bin\Debug\net8.0\factorial.exe
+D:\ProyectosC#\archivoBinario\expo\factorial\factorial\bin\Debug\net8.0\factorial.deps.json
+D:\ProyectosC#\archivoBinario\expo\factorial\factorial\bin\Debug\net8.0\factorial.runtimeconfig.json
+D:\ProyectosC#\archivoBinario\expo\factorial\factorial\bin\Debug\net8.0\factorial.dll
+D:\ProyectosC#\archivoBinario\expo\factorial\factorial\bin\Debug\net8.0\factorial.pdb
+D:\ProyectosC#\archivoBinario\expo\factorial\factorial\obj\Debug\net8.0\factorial.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectosC#\archivoBinario\expo\factorial\factorial\obj\Debug\net8.0\factorial.AssemblyInfoInputs.cache
+D:\ProyectosC#\archivoBinario\expo\factorial\factorial\obj\Debug\net8.0\factorial.AssemblyInfo.cs
+D:\ProyectosC#\archivoBinario\expo\factorial\factorial\obj\Debug\net8.0\factorial.csproj.CoreCompileInputs.cache
+D:\ProyectosC#\archivoBinario\expo\factorial\factorial\obj\Debug\net8.0\factorial.dll
+D:\ProyectosC#\archivoBinario\expo\factorial\factorial\obj\Debug\net8.0\refint\factorial.dll
+D:\ProyectosC#\archivoBinario\expo\factorial\factorial\obj\Debug\net8.0\factorial.pdb
+D:\ProyectosC#\archivoBinario\expo\factorial\factorial\obj\Debug\net8.0\factorial.genruntimeconfig.cache
+D:\ProyectosC#\archivoBinario\expo\factorial\factorial\obj\Debug\net8.0\ref\factorial.dll
