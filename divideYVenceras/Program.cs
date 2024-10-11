@@ -126,7 +126,18 @@ while (bandera)
             }
 
             break;
-        
-        
+        case 3: 
+            
+            int numeroD;
+            Console.Write("Digite un número decimal: ");
+            numeroD = int.Parse(Console.ReadLine());
+
+            // llamamos la funcion
+            string numeroBinario = ConvertirADecimal(numeroD);
+
+            //muestra en la consolita
+            Console.WriteLine($"El número {numeroD} en binario es: {numeroBinario}");
+            Console.ReadKey();  
+        break;
     }
 }
