@@ -1,4 +1,6 @@
-﻿long Factorial(int numero)
+﻿
+//Funciones de Factorial
+long Factorial(int numero)
 {
     if (numero == 0 || numero == 1)
     {
@@ -6,6 +8,41 @@
     }
 
     return numero * Factorial(numero - 1);
+}
+//*********************************** Funciones QuickSort *******************************
+void Intercambiar(int[] array, int i, int j)
+{
+    int temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+}
+
+int Particionar(int[] array, int bajo, int alto)
+{
+    int pivote = array[alto];
+    int i = bajo - 1;
+
+    for (int j = bajo; j < alto; j++)
+    {
+        if (array[j] <= pivote)
+        {
+            i++;
+            Intercambiar(array, i, j);
+        }
+    }
+    Intercambiar(array, i + 1, alto);
+    return i + 1;
+}
+
+void QuickSort(int[] array, int bajo, int alto)
+{
+    int indicePivote;
+    if (bajo < alto)
+    {
+        indicePivote = Particionar(array, bajo, alto);
+        QuickSort(array, bajo, indicePivote - 1);
+        QuickSort(array, indicePivote + 1, alto);
+    }
 }
 
 Console.WriteLine("-----------------------------Menu-------------------------");
