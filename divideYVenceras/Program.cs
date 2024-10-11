@@ -67,16 +67,22 @@ string ConvertirADecimal(int numero)
 // Método para mostrar el menú
 void MostrarMenu()
 {
+    Console.WriteLine("--------------------------------------------------Menu-----------------------------------------------------------------");
+    Console.WriteLine("1. Encontrar el Factorial de un número.");
+    Console.WriteLine("2. Algoritmo de ordenamiento QuickSort.");
+    Console.WriteLine("3. Pasar un número decimal a binario.");
+    Console.WriteLine("4. Salir del Menu.");
+    Console.WriteLine();
+}
+
+// Método principal para manejar la lógica del menú
+void EjecutarPrograma()
+{
     bool bandera = true;
 
     while (bandera)
     {
-        Console.WriteLine("-----------------------------Menu-------------------------");
-        Console.WriteLine("1. Encontrar el Factorial de un número.");
-        Console.WriteLine("2. Algoritmo de ordenamiento QuickSort.");
-        Console.WriteLine("3. Pasar un número decimal a binario.");
-        Console.WriteLine("4. Salir del Menu.");
-        Console.WriteLine();
+        MostrarMenu(); // Llamar a la función para mostrar el menú
 
         byte option;
 
@@ -138,8 +144,17 @@ void MostrarMenu()
                 break;
         }
 
+        // Preguntar al usuario si desea volver al menú o salir
+        Console.WriteLine("¿Desea volver al menú? (s/n)");
+        string respuesta = Console.ReadLine().ToLower();
+        if (respuesta != "s")
+        {
+            bandera = false;  // Si la respuesta no es "s", salir del menú
+        }
+
         Console.WriteLine(); // Espacio adicional antes de volver al menú
     }
 }
 
-MostrarMenu();
+// Llamar al método para ejecutar el programa
+EjecutarPrograma();
