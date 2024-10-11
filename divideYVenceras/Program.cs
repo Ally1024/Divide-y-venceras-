@@ -44,6 +44,11 @@ void QuickSort(int[] array, int bajo, int alto)
         QuickSort(array, indicePivote + 1, alto);
     }
 }
+ void ImprimirArray(int[] array)
+{
+    Console.WriteLine(string.Join(" ", array));
+}
+
 
 Console.WriteLine("-----------------------------Menu-------------------------");
 Console.WriteLine();
@@ -62,7 +67,9 @@ while (bandera)
 {
     switch (option)
     {
-        case 1: Console.WriteLine("----------------------------Programa para calcular el fatorial de un numero--------------------------------");
+        case 1:
+            Console.WriteLine(
+                "----------------------------Programa para calcular el fatorial de un numero--------------------------------");
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("Ingrese un numero: ");
@@ -70,9 +77,38 @@ while (bandera)
             int numero = int.Parse(Console.ReadLine());
 
 
-  
+
             Console.WriteLine($"El factorial del numero {numero} es {Factorial(numero)}");
             break;
+            
+        case 2:
+            while (true)
+            {
+                Console.WriteLine("Ingrese los números separados por comas (o 'salir' para terminar):");
+                string input = Console.ReadLine();
+                if (input.ToLower() == "salir")
+                    break;
+
+                int[] numeros;
+                try
+                {
+                    numeros = Array.ConvertAll(input.Split(','), int.Parse);
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Entrada inválida. Asegúrese de ingresar números válidos.");
+                    continue;
+                }
+
+                Console.WriteLine("Array original:");
+                ImprimirArray(numeros);
+                QuickSort(numeros, 0, numeros.Length - 1);
+                Console.WriteLine("Array ordenado:");
+                ImprimirArray(numeros);
+            }
+
+            break;
+        
         
     }
 }
