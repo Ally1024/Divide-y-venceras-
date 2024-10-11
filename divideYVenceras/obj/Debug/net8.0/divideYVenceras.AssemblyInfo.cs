@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("divideYVenceras")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b69257d7339afb12e035c39ef4f7dc45ea1fb075")]
 [assembly: System.Reflection.AssemblyProductAttribute("divideYVenceras")]
 [assembly: System.Reflection.AssemblyTitleAttribute("divideYVenceras")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

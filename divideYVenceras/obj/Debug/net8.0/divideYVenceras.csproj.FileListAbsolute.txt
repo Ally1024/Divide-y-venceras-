@@ -1,0 +1,15 @@
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\bin\Debug\net8.0\divideYVenceras.exe
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\bin\Debug\net8.0\divideYVenceras.deps.json
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\bin\Debug\net8.0\divideYVenceras.runtimeconfig.json
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\bin\Debug\net8.0\divideYVenceras.dll
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\bin\Debug\net8.0\divideYVenceras.pdb
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\obj\Debug\net8.0\divideYVenceras.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\obj\Debug\net8.0\divideYVenceras.AssemblyInfoInputs.cache
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\obj\Debug\net8.0\divideYVenceras.AssemblyInfo.cs
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\obj\Debug\net8.0\divideYVenceras.csproj.CoreCompileInputs.cache
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\obj\Debug\net8.0\divideYVenceras.sourcelink.json
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\obj\Debug\net8.0\divideYVenceras.dll
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\obj\Debug\net8.0\refint\divideYVenceras.dll
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\obj\Debug\net8.0\divideYVenceras.pdb
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\obj\Debug\net8.0\divideYVenceras.genruntimeconfig.cache
+D:\ProyectosC#\archivoBinario\expo\divideYVenceras\divideYVenceras\obj\Debug\net8.0\ref\divideYVenceras.dll

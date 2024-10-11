@@ -71,12 +71,13 @@ void QuickSort(int[] array, int bajo, int alto)
 Console.WriteLine("-----------------------------Menu-------------------------");
 Console.WriteLine();
 
-Console.WriteLine("1.Encontrar el Factorial de un numero");
+Console.WriteLine("1.Encontrar el Factorial de un numero.");
 Console.WriteLine();
-Console.WriteLine("2.Algoritmo de ordenamiento QuickSort");
+Console.WriteLine("2.Algoritmo de ordenamiento QuickSort.");
 Console.WriteLine();
-Console.WriteLine("3.Pasar un numero decimal a binario");
+Console.WriteLine("3.Pasar un numero decimal a binario.");
 Console.WriteLine();
+Console.WriteLine("4.Salir del Menu.");
 
 bool bandera = true;
 int option = 0;
@@ -139,5 +140,9 @@ while (bandera)
             Console.WriteLine($"El número {numeroD} en binario es: {numeroBinario}");
             Console.ReadKey();  
         break;
+        
+        case 4:
+            bandera = false;
+         break;   
     }
 }
