@@ -147,7 +147,7 @@ void EjecutarPrograma()
         // Preguntar al usuario si desea volver al menú o salir
         Console.WriteLine("¿Desea volver al menú? (s/n)");
         string respuesta = Console.ReadLine().ToLower();
-        if (respuesta != "s")
+        if (respuesta.ToLower() != "s")
         {
             bandera = false;  // Si la respuesta no es "s", salir del menú
         }
