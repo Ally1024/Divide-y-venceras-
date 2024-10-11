@@ -50,6 +50,24 @@ void QuickSort(int[] array, int bajo, int alto)
 }
 
 
+//*************************** Funciones para decimal to binary *****************************
+
+ static string ConvertirADecimal(int numero)
+ {
+     string binario = "";
+     while (numero > 0)
+     {
+         // Obtener el residuo de la división entre 2 (0 o 1)
+         int residuo = numero % 2;  //El operador de módulo devuelve el residuo de una división entre dos números.
+         binario = residuo + binario;  // Añadir el residuo al inicio de la cadena
+
+         // Dividir el número entre 2 para continuar el proceso
+         numero /= 2;
+     }
+
+     return binario == "" ? "0" : binario;
+ }
+
 Console.WriteLine("-----------------------------Menu-------------------------");
 Console.WriteLine();
 
