@@ -1,0 +1,7 @@
+C:\Users\genes\source\repos\PRUEBAS\PRUEBAS\bin\Debug\PRUEBAS.exe.config
+C:\Users\genes\source\repos\PRUEBAS\PRUEBAS\bin\Debug\PRUEBAS.exe
+C:\Users\genes\source\repos\PRUEBAS\PRUEBAS\bin\Debug\PRUEBAS.pdb
+C:\Users\genes\source\repos\PRUEBAS\PRUEBAS\obj\Debug\PRUEBAS.csproj.AssemblyReference.cache
+C:\Users\genes\source\repos\PRUEBAS\PRUEBAS\obj\Debug\PRUEBAS.csproj.CoreCompileInputs.cache
+C:\Users\genes\source\repos\PRUEBAS\PRUEBAS\obj\Debug\PRUEBAS.exe
+C:\Users\genes\source\repos\PRUEBAS\PRUEBAS\obj\Debug\PRUEBAS.pdb
